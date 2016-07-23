@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InMobiMyGalaxyDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_reload">Re-load Ad</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_clear">Clear Ads</string>
+    <string name="action_scroll_to">Scroll to</string>
+    <string name="action_add_content">Add feed items</string>
+    <string name="action_remove_content">Remove feed items</string>
+    <string name="label_app_bundle_id">App Bundle ID</string>
+    <string name="label_strands_endpoint">Ad server URL</string>
+    <string name="label_placement_id">Placement ID</string>
+    <string name="hint_placement_id">Integer</string>
+    <string name="label_min_viewable_area">Min viewable area</string>
+    <string name="hint_min_viewable_area">Percentage (0, 100]</string>
+    <string name="label_min_impression_time">Min impression time (sec)</string>
+    <string name="hint_min_impression_time">Time in second(s)</string>
+    <string name="label_aes_key">AES key</string>
+    <string name="hint_aes_key">AES key (16 bytes)</string>
+    <string name="label_iv_key">Input Vector (IV) key</string>
+    <string name="hint_iv_key">Input vector (16 bytes)</string>
+    <string name="label_request_params">Request params</string>
+    <string name="hint_req_params">Custom extras</string>
+    <string name="text_button_done">Done</string>
+    <string name="dummy_section_text">Coming Soon!</string>
+
+    <string name="label_year_of_birth">Year Of Birth</string>
+    <string name="hint_year_of_birth">Year(E.g: 1988)</string>
+    <string name="label_gender">Gender</string>
+    <string name = "label_age">Age</string>
+    <string name="label_samsung_id">Samsung ID</string>
+    <string name="label_model">Model</string>
+    <string name="label_segment">Segment</string>
+    <string name = "label_reload">Show me content</string>
+    <string name = "feedback_string">Give Feedback</string>
+
+    <string-array name="values_gender">
+        <item>(Not Given)</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="values_segment">
+        <item>----</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="values_age">
+        <item>(Not Given)</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+       <!-- <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item> -->
+    </string-array>
+</resources>

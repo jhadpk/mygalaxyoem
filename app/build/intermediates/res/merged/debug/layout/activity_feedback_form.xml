@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/greybg"
+    android:layout_margin="15dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+            <learn2crack.customlistview.RobotoFont
+                android:id="@+id/lblFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Tell us about your overall experience..."
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:id="@+id/sad"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/redsmileysad"/>
+
+                <learn2crack.customlistview.RobotoFont
+                    android:id="@+id/lblsad"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hmm...\nThis is poor!"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp">
+                <ImageButton
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:id="@+id/ok"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bluesmileyokay"/>
+                <learn2crack.customlistview.RobotoFont
+                    android:id="@+id/lblok"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ok.\n Simply fine."
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp">
+                <ImageButton
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:id="@+id/happy"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/greensmileyawesome"/>
+                <learn2crack.customlistview.RobotoFont
+                    android:id="@+id/lblhappy"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Great!\n Its awesome. "
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.35"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblcomments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wanna say something..."
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <EditText
+                    android:id="@+id/comments"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="300dp"
+                    android:layout_height="fill_parent"
+                    android:hint="Enter some comment"
+                    android:padding="10dp"
+                    android:gravity="top"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:background="#ffffff"
+                    android:layout_gravity="center"
+                    android:maxLength="300"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:layout_gravity="center">
+                <TextView android:id="@+id/submit"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:text="Submit Feedback"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffffff"
+                    android:background="#2db82d" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout><!-- From: file:/Users/deepak.jha/MyGalaxyOEM/app/src/main/res/layout/activity_feedback_form.xml -->

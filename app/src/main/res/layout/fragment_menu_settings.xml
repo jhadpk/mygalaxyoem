@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="24dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/text_app_bundle_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_app_bundle_id"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_app_bundle_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/text_strands_endpoint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_strands_endpoint"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/input_strands_endpoint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/label_placement_id"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/label_placement_id"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_placement_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textNoSuggestions|number"
+            android:textStyle="normal"
+            android:typeface="monospace"
+            android:textSize="24sp"
+            android:hint="@string/hint_placement_id"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/label_aes_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_aes_key"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_aes_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColorHint="@android:color/secondary_text_light"
+            android:hint="@string/hint_aes_key"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/text_input_vector_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_iv_key"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_iv_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_iv_key"
+            android:textColorHint="@android:color/secondary_text_light"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/text_req_params"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_request_params"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_request_params"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_req_params"
+            android:visibility="gone"/>
+
+        <!-- Year of birth-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_year_of_birth"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/input_yob"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/label_year_of_birth"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <!-- Year of birth-->
+
+        <!-- Gender -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_gender"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+        <Spinner
+            android:id="@+id/spinner_gender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/values_gender"
+            android:visibility="gone">
+        </Spinner>
+        <!-- Gender -->
+
+        <!-- Samsung ID -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_samsung_id"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+        <EditText
+            android:id="@+id/input_samsung_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <!-- Samsung ID -->
+
+        <!-- Model -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_model"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+        <EditText
+            android:id="@+id/input_model"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <!-- Model -->
+        <!-- Segment -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_segment"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/spinner_segment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/values_segment"
+            android:visibility="gone"></Spinner>
+        <!-- Segment -->
+        <Button
+            android:id="@+id/button_done"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_button_done"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+
+</ScrollView>
